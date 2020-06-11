@@ -55,7 +55,7 @@ body{
 }
 .bottom-section article{
     width: 50%;
-    float: left;
+    
     background-color: hsl(179, 62%, 43%);
     
 }
@@ -132,7 +132,7 @@ footer{
     }
     .bottom-section article{
         width: 100%;
-        float: none;
+        
         
     }
     .bottom-section{
