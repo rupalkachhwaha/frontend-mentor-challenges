@@ -25,9 +25,11 @@ body{
 
 .top-section{
     padding: 40px;
+    border:1px solid red;
 }
 .bottom-section{
     padding: 30px;
+    border:1px solid blue;
 }
 .left-article{
     max-width: 50%;
