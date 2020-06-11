@@ -34,7 +34,7 @@ body{
 
 .top-section{
     padding: 20px 0 20px 40px;
-    border: 1px solid red;
+    
 }
 .top-section h2{
     color: var(--cyan);
@@ -57,7 +57,7 @@ body{
     width: 50%;
     float: left;
     background-color: hsl(179, 62%, 43%);
-    border: 1px solid chartreuse;
+    
 }
 .bottom-section article:last-child {
     background-color: #4abebd;
