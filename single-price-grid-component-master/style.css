@@ -121,7 +121,7 @@ footer{
        
     }
     .bottom-section .left-article {
-        padding: 24px;
+        padding: 24px 0 34px 24px;
     }
     .bottom-section article:last-child {
         padding: 24px;
