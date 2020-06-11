@@ -50,7 +50,7 @@ body{
 
 /* bottom-section */
 .bottom-section{
-    
+    display:flex;
     color: var( --light-gray);
 }
 .bottom-section article{
@@ -135,5 +135,10 @@ footer{
         float: none;
         
     }
+    .bottom-section{
+        display:flex;
+        flex-direction:column;
+        
+}
 
 }
