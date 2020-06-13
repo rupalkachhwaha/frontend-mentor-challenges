@@ -162,15 +162,18 @@ main section .main-1 .main-right{
     }
     .header-part2{
         flex-direction: column;
+        width:87%;
     }
     section .header-article2 {
-        width: 82%;
+        width: 100%;
         align-self: center;
+        padding-top:3rem;
     }
     section .header-article1{
         width: 100%;
         /* align-self: center; */
         text-align: center;
+        padding-right:0;
     }
     section .header-article1 h1 {
         font-size: 28px;
