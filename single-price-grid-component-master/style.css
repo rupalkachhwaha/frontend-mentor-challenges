@@ -63,13 +63,13 @@ body{
 }
 .bottom-section article:last-child {
     background-color: #4abebd;
-    padding: 20px 0 20px 40px;
+    padding: 10px 0 10px 40px;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
 }
 
 .bottom-section .left-article {
-    padding: 20px 0 20px 40px;
+    padding: 10px 0 10px 40px;
 }
 .bottom-section .left-article p strong{
     font-size: 36px;
