@@ -244,7 +244,7 @@ footer {
     margin-top: -90px;
 }
 
-.started div {
+.started h3 {
     color: black;
     padding-bottom: 2rem;
     font-weight: 700;
@@ -328,9 +328,7 @@ footer {
     .copywrite{
         padding-top: 1rem;
     }
-    .started{
-        width: 80%;
-    }
+    
     .main-block{
         text-align: center;
     }
@@ -346,10 +344,11 @@ footer {
         margin-top: 7rem;
     }
     .started{
+         width: 80%;
         text-align: center;
         padding: 2rem 15px;
     }
-    .started div{
+    .started h3{
         font-size: 1.32rem;
     }
     .started button{
