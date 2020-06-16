@@ -15,7 +15,7 @@ My submission for the frontend-mentor-challenges
   </tr>
   <tr>
     <td>2</td>
-    <td><a href="https://rupalkachhwaha.github.io/frontend-mentor-challenges/huddle-landing-page-with-alternating-feature-blocks-master/">huddle-landing-page-with-alternating-feature-blocks-master</a>/</td>
+    <td><a href="https://rupalkachhwaha.github.io/frontend-mentor-challenges/huddle-landing-page-with-alternating-feature-blocks-master/">huddle-landing-page-with-alternating-feature-blocks-master</a></td>
     
   </tr>
   <tr>
