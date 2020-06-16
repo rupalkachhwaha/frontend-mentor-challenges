@@ -2,7 +2,7 @@
 
 My submission for the frontend-mentor-challenges
 
-<table>
+<table style=" border:1px solid black">
   <tr>
     <th>challenge Name</th>
     <th>link</th>
