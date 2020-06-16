@@ -9,16 +9,16 @@ My submission for the frontend-mentor-challenges
   </tr>
   
   <tr>
-    <tr>single-price-grid-component-master</tr>
-    <tr>https://rupalkachhwaha.github.io/frontend-mentor-challenges/single-price-grid-component-master/</tr>
+    <td>single-price-grid-component-master</td>
+    <td>https://rupalkachhwaha.github.io/frontend-mentor-challenges/single-price-grid-component-master/</td>
   </tr>
   <tr>
-    <tr>huddle-landing-page-with-alternating-feature-blocks-master/</tr>
-    <trhttps://rupalkachhwaha.github.io/frontend-mentor-challenges/huddle-landing-page-with-alternating-feature-blocks-master/</tr>
+    <td>huddle-landing-page-with-alternating-feature-blocks-master/</td>
+    <td>https://rupalkachhwaha.github.io/frontend-mentor-challenges/huddle-landing-page-with-alternating-feature-blocks-master/</td>
   </tr>
   <tr>
-    <tr>four-card-feature-section-master/</tr>
-    <tr>https://rupalkachhwaha.github.io/frontend-mentor-challenges/four-card-feature-section-master/</tr>
+    <td>four-card-feature-section-master/</td>
+    <td>https://rupalkachhwaha.github.io/frontend-mentor-challenges/four-card-feature-section-master/</td>
   </tr>
    
     
