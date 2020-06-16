@@ -140,5 +140,9 @@ footer{
         display: flex;
         flex-direction: column;
     }
+    .wrapper{
+        margin: 4rem 0rem;
+            height: auto;
+    }
 
 }
