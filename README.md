@@ -4,8 +4,9 @@ My submission for the frontend-mentor-challenges
 
 <table>
   <tr>
-    <td>challenges</td>
-    <td>link</td>
+    <th>challenges</th>
+    <th>link</th>
    </tr>
+    
   
 </table>
