@@ -23,11 +23,7 @@ My submission for the frontend-mentor-challenges
     <td><a href="https://rupalkachhwaha.github.io/frontend-mentor-challenges/four-card-feature-section-master/">four-card-feature-section-master</a></td>
    
   </tr>
-  <tr>
-    <td>4</td>
-    <td><a href="https://rupalkachhwaha.github.io/frontend-mentor-challenges/social-media-dashboard-with-theme-switcher-master</a></td>
-   
-  </tr>
+ 
   
    
     
