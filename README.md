@@ -25,7 +25,7 @@ My submission for the frontend-mentor-challenges
   </tr>
   <tr>
     <td>4</td>
-    <td><a href="https://rupalkachhwaha.github.io/frontend-mentor-challenges/social-media-dashboard-with-theme-switcher-master/</a></td>
+    <td><a href="https://rupalkachhwaha.github.io/frontend-mentor-challenges/social-media-dashboard-with-theme-switcher-master</a></td>
    
   </tr>
   
