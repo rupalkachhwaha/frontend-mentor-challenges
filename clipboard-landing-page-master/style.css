@@ -181,7 +181,7 @@ header{
 
 footer{
     background-color: #f5f6f8;
-    padding: 7rem 0;
+    padding-top: 7rem;
 }
 .footer-outer{
     display: flex;
@@ -209,6 +209,12 @@ footer{
 }
 .footer-logo{
     width: 30%;
+}
+.attribution{
+    padding: 4rem 0 2rem 0;
+}
+button {
+    outline: none; 
 }
 
 
