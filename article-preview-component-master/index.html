@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="https://kit.fontawesome.com/eea31c4faf.js" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <script src="script.js"></script>
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="main">
+
+      <div class="container">
+  
+        <div class="left-section">
+          <img src="images/drawers.jpg" alt="Drawers" />
+        </div>
+  
+        <div class="right-section">
+          <h1 class="right-text">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+          <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
+  
+          <div class="right-content-bottom">
+            <div class="author-cont">
+  
+              <div class="author-avatar">
+                <img src="images/avatar-michelle.jpg" alt="Author Photo" />
+              </div>
+  
+              <div class="author-name">
+                <div class="bold-text">Michelle Appleton</div>
+                <div class="light-text">28 Jun 2020</div>
+              </div>
+            </div>
+  
+            <div class="share-cont">
+              <button id="shareButton" title="Share"><i class="fas fa-share"></i></button>
+  
+              <div class="share-options">
+                <span class="share-text">SHARE</span>
+                <a class="fb-icon" href="https://www.facebook.com/" target="_blank"><img src="images/icon-facebook.svg" alt="Facebook" /></a>
+                <a class="twitter-icon" href="https://twitter.com/" target="_blank"><img src="images/icon-twitter.svg" alt="Twitter" /></a>
+                <a class="pinterest-icon" href="https://pinterest.com/" target="_blank"><img src="images/icon-pinterest.svg" alt="Pinterest" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  </div>
+  
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Rupal Kachhwaha</a>.
+  </div>
+
+  <script>
+    document.getElementById("shareButton").addEventListener("click", function() {
+      document.querySelector(".share-cont").classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
