@@ -77,12 +77,13 @@ button:hover{
 @media (max-width: 850px){
 
     .container{
+        flex-wrap:wrap;
         max-width: 90%;
     }
 
     .block-comm{
         flex-direction: row;
-        flex-wrap:wrap;
+        
         width: 80%;
         padding: 2.8rem 2.4rem;
     }
