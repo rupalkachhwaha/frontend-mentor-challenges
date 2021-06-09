@@ -136,6 +136,7 @@ li>span{
         font-size: 2.4rem;
     }
     .right-sec {
+        background: url(./images/image-header-mobile.jpg) no-repeat center center/cover;
         width: 100%;
         border-radius: 0;
     }
