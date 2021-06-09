@@ -19,12 +19,13 @@ body{
     color: azure;
 }
 .left-sec{
-    padding: 3rem 4rem;
-    
+    padding: 3rem 5rem;
+    width: 40%;
+    border-radius: 20px 0 0 20px;
 }
 .left-sec h1{
     font-family: 'Lexend Deca', sans-serif;
-    
+    letter-spacing: 0.1rem;
 }
 .left-sec p{
     font-family: 'Inter', sans-serif;
@@ -38,14 +39,51 @@ body{
     padding: 0;
 }
 
-.left-sec, .right-sec{
+/* .left-sec, .right-sec{
     width: 50%;
-}
+} */
 .right-sec {
-    background-color: hsl(277, 64%, 61%);
+    width: 50%;
+    background: url(./images/image-header-desktop.jpg) no-repeat center center/cover;
+    height: 27rem;
+    border-radius: 0 20px 20px 0;
+    
 }
-.right-sec img{
+.right-sec::after{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    display: block;
     opacity: 0.5;
+    
+}
+/* .right-sec img{
+    opacity: 0.5;
+}
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+ul{
+    margin-top: 4rem;
+}
+li{
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+}
+
+li>span{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+
 }
 
 /* .right-sec{
@@ -54,3 +92,54 @@ body{
     background-repeat: no-repeat;
     width: 50%;
 } */
+
+
+
+
+
+@media (max-width:600px){
+
+    .wrapper {
+        height: 100%;
+        margin-top: 6rem;
+    }
+    .container {
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+    .left-sec {
+        padding: 0; 
+        width: 100%;
+        border-radius: 0;
+       
+        text-align: center;
+    }
+    .left-sec h1 {
+        letter-spacing: 0.1rem;
+        padding: 3rem;
+        font-size: 2.5rem;
+    }
+    .left-sec p {
+        line-height: 2.4rem;
+        padding: 0 2rem;
+        font-size: 1.6rem;
+    }
+    .left-sec ul {
+        flex-direction: column;
+    }
+    li {
+        font-size: 1.4rem;
+        line-height: 2.8rem;
+        padding: 1rem 0;
+    }
+    li>span{
+        font-size: 2.4rem;
+    }
+    .right-sec {
+        width: 100%;
+        border-radius: 0;
+    }
+
+
+    
+}
