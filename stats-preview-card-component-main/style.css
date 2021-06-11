@@ -17,6 +17,7 @@ body{
     display: flex;
     flex-direction: row;
     color: azure;
+    border-radius: 20px 0 0 20px;
 }
 .left-sec{
     padding: 3rem 5rem;
