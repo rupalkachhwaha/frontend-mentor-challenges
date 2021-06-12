@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 96vh;
+    min-height: 96vh;
     width: 100%;
     
 }
@@ -16,7 +16,8 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    max-width: 60%;
+    max-width: 60rem;
+    width:100%;
 }
 h1{
     font-family: 'Big Shoulders Display', cursive;
