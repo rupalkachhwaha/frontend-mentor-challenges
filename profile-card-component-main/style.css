@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/bg-pattern-top.svg) , url(images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    background-position: -55% 195%, 145% -150%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.profile{
+    background-color: aliceblue;
+    width: 25%;
+    height: 25rem;
+    border-radius: 20px;
+    margin: auto;
+}
+.card-header{
+    background-image: url(images/bg-pattern-card.svg);
+    height: 9rem;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    position: relative;
+}
+
+.image-div{
+    position: absolute;
+    top: 60%;
+    left: 36%;
+    background-color: white;
+    /* display: block; */
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.profile-image{
+    border-radius: 50%;
+}
+/* .profile img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+} */
+
+/* .profile-image{
+    position: absolute;
+    top: 6rem;
+    right: 9rem;
+    border: 5px solid white;
+    border-radius: 50%;
+} */
+
+.card-body{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1.4rem;
+    line-height: 0.6rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.card-body h2{
+    font-size: 18px;
+}
+.card-body h2 span , p{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
